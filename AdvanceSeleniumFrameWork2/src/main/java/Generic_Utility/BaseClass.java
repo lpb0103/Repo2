@@ -65,12 +65,12 @@ public class BaseClass {
 
 		wlib.windowMaximize(driver);
 
-		String URL = file.getKeyAndValuePair("url");
+		//String URL = file.getKeyAndValuePair("url");
 		String USERNAME = file.getKeyAndValuePair("username");
 		String PASSWORD = file.getKeyAndValuePair("password");
 
 		//reading url,username,password values from cmd line
-//		String URL = System.getProperty("url");
+		String URL = System.getProperty("url");
 //	    String USERNAME = System.getProperty("username");
 //		String PASSWORD = System.getProperty("password");
 		
