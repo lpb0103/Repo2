@@ -31,7 +31,7 @@ public class CreateProductAndDeleteProductTest extends BaseClass {
 
 	@Test(enabled = false)
 	public void createProductAndDeleteProductTest() throws Throwable {
-
+//scm jenkins
 		File_Utility flib = new File_Utility();
 		Java_Utility jlib = new Java_Utility();
 		Excel_Utility elib = new Excel_Utility();
